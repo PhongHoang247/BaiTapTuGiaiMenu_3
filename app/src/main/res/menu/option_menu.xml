@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuTim"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Tìm kiếm"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuGioiThieu"
+        android:title="Giới thiệu" />
+    <item
+        android:id="@+id/menuHuongDan"
+        android:title="Hướng dẫn sử dụng" />
+</menu>
